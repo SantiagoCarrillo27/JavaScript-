@@ -1,7 +1,17 @@
-// Hallar el costo total de la cena que tuvo Jose, incluyendo el impuesto y la propina 
+let monto = prompt('¿Cuanto dinero tienes?')
 
-let cuenta = 20;
+let dineroSanti = 3;
 
-let propina = 10/100 + cuenta;
+if(monto == 1.6 && monto <= 1.8 ){
 
-console.log(propina);
+    alert('Puedes comprarte uno de chocolate')
+
+}
+else if(monto < dineroSanti && monto > dineroSanti){
+    alert('Eres un pobre de mierda, con esp no puedes comprar ni un chicle')
+}else if(monto == 2 && monto <= 2.2){
+    alert('Puedes comprarte uno de caramelo')
+
+}
+
+
