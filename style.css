@@ -1,4 +1,7 @@
-*{
+
+/* Estilos de la calculadora */
+
+/* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -37,4 +40,87 @@ input::placeholder{
   color: #fff;
   font-weight: 600;
   font-size: 1rem;  
+}
+ */
+
+/* Estilos para nuestro generador de usuarios random */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::rot{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.title__item{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  margin-top: 0;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  color: rgb(32, 32, 233);
+  text-decoration: underline;
+  text-decoration-color: #e2bc3f;
+  font-size: 2.5rem;
+}
+
+.contenedor{
+  margin: 60px auto;
+  margin-bottom: 25px;
+  width: 550px;
+  height: 200px;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 30px 0;
+  font-family: inherit;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+
+
+}
+
+.contenedor span{
+  color: rgb(143, 143, 143);
+}
+
+.contenedor p{
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.contenedor h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.btn_usuarios{
+  display: block;
+  color: #fff;
+  background:  rgb(32, 32, 233);
+  padding: 8px 13px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn_usuarios:hover{
+  padding: 12px 18px;
+  transition: 0.3s;
+  background: #e2bc3f;
+  color: black;
+  text-decoration: underline;
+
+}
+
+.img__item{
+  border-radius: 50%;
 }
