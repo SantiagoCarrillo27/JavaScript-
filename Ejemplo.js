@@ -1,11 +1,14 @@
-const para = document.querySelector('p');
+// let diasMes ={
+//   color:"blanco",
+//   cabello: "largo",
+//   edad:26
+// }
 
-para.addEventListener('click', updateName);
+let diasMes = {
+  
+};
 
-function updateName() {
-  let name = prompt('Enter a new name');
-  para.textContent = 'Player 1: ' + name;
+for (let mes of diasMes){
+  console.log(mes);
 }
 
-let carro;
-console.log(carro);
